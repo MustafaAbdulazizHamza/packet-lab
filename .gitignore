@@ -1,0 +1,111 @@
+##################################
+# Python
+##################################
+# Bytecode & cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Logs & misc
+*.log
+pip-log.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+##################################
+# Go (Golang)
+##################################
+# Binaries & tests
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go modules & build cache
+go.sum
+*.mod~
+bin/
+obj/
+coverage.out
+
+# Vendor folder (optional)
+vendor/
+
+##################################
+# Suricata / Snort
+##################################
+# Backup/temporary rule files
+*.rules.bak
+*.rules.tmp
+*.rules.old
+*.yaml.tmp
+*.sid
+*.index
+*.map
+
+# Object files (if compiled)
+*.o
+
+##################################
+# Zeek
+##################################
+# Logs & output
+*.log
+*.log.*
+*.log.gz
+*.log.bz2
+*.log.json
+*.log.lz4
+
+# Runtime & spool
+spool/
+*.spool
+*.state
+*.pid
+*.stderr
+*.stdout
+*.stats
+
+# Specific log types (if needed)
+conn.log*
+dns.log*
+http.log*
+
+##################################
+# Editor / System
+##################################
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Vim
+*.swp
+*.swo
+
+# Generic backup
+*~
+*.bak
+
+# IDEs
+.vscode/
+.idea/
+
