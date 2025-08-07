@@ -17,7 +17,7 @@ class MeanTCPStream:
     - Call the `calculate()` method to perform the computation.
 
     """
-    def __init__(self, files: list[str], features: str, output: str):
+    def __init__(self, files: list[str], features: list[str], output: str):
         if not os.path.isdir(os.path.dirname(output)):
             raise NotADirectoryError(f"Output directory does not exist: {os.path.dirname(output)}")
         self._pcaps = []
